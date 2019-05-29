@@ -64,3 +64,91 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.menu-header {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: #8FBC8F;
+    z-index: 0;
+}
+header {
+    display: inline-block;
+    width: 100%;
+    padding: 18px;
+}
+header nav ul {
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+}
+header nav ul li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 20px 20px 40px;
+}
+header nav ul li a:hover {
+    color: black;
+}
+.menu {
+    color: white;
+    width: 200px;
+    text-decoration: none;
+}
+header .logo {
+    position: absolute;
+    top: 18px;
+    right: 20px;
+}
+.h1-title {
+    display: inline-block;
+    vertical-align: top;
+    width: 600px;
+    height: 500px;
+    font-size: 70px;
+    text-align: center;
+    padding: 150px 0px 150px 150px;
+} 
+.title-img {
+   margin: 110px 0px 110px 120px;
+} 
+hr {
+    padding: 0px;
+}
+.top-content {
+    margin: 60px;
+}
+.features {
+    display: inline-block;
+    width: 49%;
+}
+.about {
+    display: inline-block;
+    width: 49%;
+}
+.middle-img {
+    margin: 20px 20px 60px 180px;
+}
+.bottom-content {
+    margin: 20px 20px 60px 20px;
+}
+.services {
+    display: inline-block;
+    width: 32%;
+}
+.product {
+    display: inline-block;
+    width: 32%;
+}
+.vision {
+    display: inline-block;
+    width: 32%;
+}
+.contact {
+    margin: 20px;
+}
+footer {
+    text-align: center;
+}
